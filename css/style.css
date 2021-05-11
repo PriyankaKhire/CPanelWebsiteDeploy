@@ -1,23 +1,22 @@
 @import url("hover-min.css");
 
 @media screen and (min-width: 980px) /* Desktop */ {
-	.content h1{
+	.content h1 {
 		font-size: 700%;
 	}
 }
 
 @media screen  and (max-width: 979px) /* Tablet */ {
-	.content h1{
+	.content h1 {
 		font-size: 500%;
 	}
 }
 
 @media screen and (max-width: 500px) /* Mobile */ {
-	.content h1{
-		font-size: 200%;
+	.content h1 {
+		font-size: 300%;
 	}
 }
-
 
 /* Remove white space betwee  top and the menu*/
 html, body {
