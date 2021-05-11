@@ -1,21 +1,21 @@
 @import url("hover-min.css");
 
 @media screen and (min-width: 980px) /* Desktop */ {
-  body {
-    background-color: transparent;
-  }
+	.content h1{
+		font-size: 700%;
+	}
 }
 
 @media screen  and (max-width: 979px) /* Tablet */ {
-  body {
-    background-color: transparent;
-  }
+	.content h1{
+		font-size: 500%;
+	}
 }
 
 @media screen and (max-width: 500px) /* Mobile */ {
-  body {
-    background-color: transparent;
-  }
+	.content h1{
+		font-size: 200%;
+	}
 }
 
 
@@ -97,7 +97,4 @@ p, pre, h2, h3, h4, ul, ol {
 }
 .content p{
 	text-align: center;
-}
-.content h1{
-	font-size: 700%;
 }
