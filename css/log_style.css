@@ -1,4 +1,20 @@
 @media screen and (min-width: 980px) /* Desktop */ {
+    /* Background image */
+    .main_log {
+        background-image: url('../img/BackgroundImages/Log.jpeg');
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    /* Black tone overlay over picture */
+    .black_tone_overlay {
+        height: 100vw 100vh;
+        /* black tone overlay */
+        background-color: rgba(0,0,0,.65);
+        background-attachment: fixed;
+    }
+
     .card {
         width: 25vw;
         height: 20vw;
@@ -22,6 +38,10 @@
 }
 
 @media screen  and (max-width: 979px) /* Tablet */ {
+    /* Color gradient */
+    .main_log {
+        background-image: linear-gradient(#2d2e30, grey);
+    }
 
     .head-content {
         padding-bottom: 7vh;
@@ -43,6 +63,10 @@
 }
 
 @media screen and (max-width: 500px) /* Mobile */ {
+    /* Color gradient */
+    .main_log {
+        background-image: linear-gradient(#2d2e30, grey);
+    }
 
     .head-content {
         padding-bottom: 7vh;
@@ -82,12 +106,4 @@
 
 .card h3{
     text-align: center;
-}
-
-/* Background image */
-.main_log {
-    background-image: url('../img/BackgroundImages/Log.jpeg');
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
