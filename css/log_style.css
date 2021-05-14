@@ -1,0 +1,53 @@
+@media(max-width: 990px){
+    .card{
+        margin: 20px;
+    }
+}
+.card{
+    border-radius: 3vw;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+    width: 25vw;
+    height: 20vw;
+    margin-left: 5%;
+    background-color: white;
+}
+.card img{
+    max-width: 100%;
+    margin: auto;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50%;
+}
+
+.row {
+    margin: 0 auto;
+    display: flex;
+    width: 80vw;
+    padding-bottom: 5%;
+}
+
+/* Background image */
+.main_log {
+    background-image: url('../img/BackgroundImages/Log.jpeg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Black tone overlay over picture */
+.black_tone_overlay {
+    height: 100vw 100vh;
+    /* black tone overlay */
+    background-color: rgba(0,0,0,.65);
+}
