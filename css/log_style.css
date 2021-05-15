@@ -9,7 +9,7 @@
 
     /* Black tone overlay over picture */
     .black_tone_overlay {
-        height: 100vw 100vh;
+        height: 100vh;
         /* black tone overlay */
         background-color: rgba(0,0,0,.65);
         background-attachment: fixed;
@@ -29,7 +29,7 @@
     /* font sizes */
     .card h3 {
         font-size: 1.5vw;
-        padding-top: 50%;
+        padding-top: 45%;
     }
     .card p {
         font-size: 0.7vw;
@@ -58,7 +58,7 @@
         padding-top: 50vh;
     }
     .card p {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 }
 
@@ -106,4 +106,9 @@
 
 .card h3{
     text-align: center;
+}
+
+.card h4{
+    text-align: center;
+    color: #8490b3;
 }
