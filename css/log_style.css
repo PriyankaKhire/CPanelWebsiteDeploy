@@ -40,7 +40,7 @@
 @media screen  and (max-width: 979px) /* Tablet */ {
     /* Color gradient */
     .main_log {
-        background-image: linear-gradient(#2d2e30, grey);
+        background-image: linear-gradient(to bottom right, #a2a3a6, black);
     }
 
     .head-content {
@@ -65,7 +65,7 @@
 @media screen and (max-width: 500px) /* Mobile */ {
     /* Color gradient */
     .main_log {
-        background-image: linear-gradient(#2d2e30, grey);
+        background-image: linear-gradient(to bottom right, #a2a3a6, black);
     }
 
     .head-content {
