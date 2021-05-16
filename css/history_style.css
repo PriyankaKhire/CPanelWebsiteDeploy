@@ -1,7 +1,38 @@
+@media screen and (min-width: 980px) /* Desktop */ {
+    .main_index {
+        background-image: url('../img/BackgroundImages/History.jpeg');
+    }
+    .container .date {
+        color: #fff;
+    }
+
+}
+@media screen  and (max-width: 979px) /* Tablet */ {
+    .main_index {
+        background-image: linear-gradient(to right, #93385FFF , #9F6B99FF, #4F3466FF, #301728FF);
+    }
+    .encapsulate_border {
+        background-color: rgba(255,255,255,.30);
+    }
+    .container .date {
+        color: #292827;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .main_index {
+        background-image: linear-gradient(to right, #5f0f40, #310e68);
+    }
+    /* Mobile devices */
+    .encapsulate_border {
+        background-color: rgba(255,255,255,.30);
+    }
+    .container .date {
+        color: #292827;
+    }
+}
 /* Background Image */
 .main_index {
-    background-image: url('../img/BackgroundImages/History.jpeg');
-
     background-repeat: no-repeat;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -124,7 +155,6 @@
     text-align: center;
     font-size: 14px;
     font-weight: bold;
-    color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
