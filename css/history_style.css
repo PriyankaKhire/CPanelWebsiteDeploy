@@ -1,9 +1,19 @@
 /* Background Image */
 .main_index {
     background-image: url('../img/BackgroundImages/History.jpeg');
-    background-size: 100vw 100vh;
+
     background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
     background-attachment: fixed;
+    background-position: center;
 }
 
 /* Black tone overlay over picture */
