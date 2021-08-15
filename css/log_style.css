@@ -9,7 +9,7 @@
 
     /* Black tone overlay over picture */
     .black_tone_overlay {
-        height: 100vh;
+        background-size: 100vw 100vh;
         /* black tone overlay */
         background-color: rgba(0,0,0,.65);
         background-attachment: fixed;
